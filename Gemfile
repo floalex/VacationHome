@@ -11,7 +11,8 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'figaro'
 gem 'toastr-rails'
-
+gem 'omniauth'
+gem 'omniauth-facebook'
 
 group :development, :test do
   gem 'byebug'
