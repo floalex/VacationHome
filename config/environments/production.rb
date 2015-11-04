@@ -85,7 +85,7 @@ Rails.application.configure do
     enable_starttls_auto: true,
     user_name: ENV['mandrill_user_name'],
     password: ENV['mandrill_password'],
-    authentication: 'login'.
+    authentication: 'login',
     domain: 'heroku.com'
   }
 end
