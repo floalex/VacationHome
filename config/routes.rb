@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  
+
   root 'pages#home'
   devise_for :users, 
              :path => '', 
@@ -8,5 +8,6 @@ Rails.application.routes.draw do
                               :registrations => 'registrations' }
              
   resources :users, only: [:show]
+  resources :rooms
   
 end
