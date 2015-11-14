@@ -11,6 +11,7 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'figaro'
 gem 'toastr-rails'
+gem 'paperclip'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2', :git => 'https://github.com/zquestz/omniauth-google-oauth2' #https://github.com/zquestz/omniauth-google-oauth2/issues/181
