@@ -231,3 +231,12 @@ input[type="checkbox"]:checked:before {
 .col-md-4:nth-child(3n+1) {
   clear: left;
 }
+
+.amenities li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.text-line-through {
+  text-decoration: line-through;
+}
