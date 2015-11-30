@@ -15,5 +15,14 @@ class Room < ActiveRecord::Base
   validates :summary, presence: true, length: { maximum: 500 }
   validates :address, presence: true
   validates :price, presence: true, numericality: true
+  # validate :at_least_one_photo
+
+  # private
+
+  # def at_least_one_photo
+  #   if photos.size < 1
+  #     errors.add :base, "You have to upload at least one photo for your room."
+  #   end
+  # end
 
 end
