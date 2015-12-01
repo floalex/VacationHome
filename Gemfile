@@ -16,6 +16,7 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2', :git => 'https://github.com/zquestz/omniauth-google-oauth2' #https://github.com/zquestz/omniauth-google-oauth2/issues/181
 gem 'geocoder'
+gem 'jquery-ui-rails'
 
 group :development, :test do
   gem 'byebug'
