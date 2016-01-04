@@ -16,5 +16,6 @@ Rails.application.routes.draw do
   end
 
   get '/preload' => 'reservations#preload'
+  get '/preview' => 'reservations#preview'
   
 end
