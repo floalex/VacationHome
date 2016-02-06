@@ -15,4 +15,5 @@
 //= require toastr
 //= require jquery_ujs
 //= require jquery-ui/datepicker
+//= require private_pub
 //= require_tree .
